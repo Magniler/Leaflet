@@ -8,7 +8,7 @@ library(leaflet)
 library(tidyverse)
 library(htmltools)
 library(googlesheets4)
-
+library(htmlwidgets)
 
 # Bring in a choice of Esri background layers  
 l_cp <- leaflet() %>%   # assign the base location to an object
